@@ -9,34 +9,79 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  position: relative;
   display: flex;
-  align-items: center;
+  position: relative;
+  background-color:  #f2f2f2;
+  box-sizing: border-box;
+  border: red 1px solid;
+}
 
+.logo {
+  width: 228px;
+  height: 32px;
+  border: red 1px solid;
 }
 
 .logo__place_header {
-  background-image: url(/images/logo_place_header.svg);
-  height: 32px;
-  width: 228px;
   position: absolute;
   top: 30px;
   left: 64px;
+  background-size: cover;
+  z-index: 1;
 }
 
 .header_title {
-  width: 730px;
+  width: 388px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
-  font-weight: 600;
+  font-weight: 600px;
+  z-index: 2;
+  box-sizing: border-box;
+  border: red 1px solid;
 }
 
-.header__square-pic {
+.header_subtitle {
+  position: absolute;
+  width: 388px;
+  left: 64px;
+  bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 2;
+  box-sizing: border-box;
+  border: red 1px solid;
+}
+
+.link_header{
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header_main-ilustration{
+  position: absolute;
+  height: 608px;
+  width: 705px;
+  background-size: cover;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  border: red 1px solid;
+}
+
+.header_square-pic{
+  background-color: #2f80ed;
+  position: absolute;
   height: 568px;
   width: 568px;
+  top: 64px;
+  right: 0;
+  z-index: 0;
+  box-sizing: border-box;
+  border: red 1px solid;
 }
 
 .table__cell_theme_dark {
