@@ -125,7 +125,75 @@
   border: red 1px solid;
 }
 
+.digits {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
+.section-title {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  border: red 1px solid;
+}
+
+.section-subtitle{
+  width: 60%;
+  margin-bottom: 60px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  box-sizing: border-box;
+  border: red 1px solid;
+}
+
+.table__place_digits {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  list-style: none;
+  box-sizing: border-box;
+  border: red 1px solid;
+}
+
+.table_cell {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table_heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: red 1px solid;
+}
+
+.table__text_digits:first-of-type {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  box-sizing: border-box;
+  border: red 1px solid;
+}
+
+.table__text_digits:last-of-type {
+  margin-top: 20px;
+  border: red 1px solid;
+}
 
 .table__cell_theme_dark {
   width: 200px;
