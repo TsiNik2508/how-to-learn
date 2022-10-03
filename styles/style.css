@@ -22,7 +22,7 @@
   border: red 1px solid;
 }
 
-.logo__place_header {
+.place-header__logo {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -30,7 +30,7 @@
   z-index: 1;
 }
 
-.header_title {
+.header__title {
   width: 388px;
   display: flex;
   align-items: center;
@@ -43,7 +43,7 @@
   border: red 1px solid;
 }
 
-.header_subtitle {
+.header__subtitle {
   position: absolute;
   width: 388px;
   left: 64px;
@@ -56,12 +56,12 @@
   border: red 1px solid;
 }
 
-.link_header{
+.header__link{
   color: #2f80ed;
   text-decoration: none;
 }
 
-.header_main-ilustration{
+.header__main-ilustration{
   position: absolute;
   height: 608px;
   width: 705px;
@@ -72,7 +72,7 @@
   border: red 1px solid;
 }
 
-.header_square-pic{
+.header__square-pic {
   background-color: #2f80ed;
   position: absolute;
   height: 568px;
@@ -83,6 +83,49 @@
   box-sizing: border-box;
   border: red 1px solid;
 }
+
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  min-width: 784px;
+  box-sizing: border-box;
+  border: red 1px solid;
+}
+
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color:  #2f80ed;
+  box-sizing: border-box;
+  border: red 1px solid;
+}
+
+.two-columns__main-text{
+  width: 80%;
+  min-width: 784px;
+  box-sizing: border-box;
+  border: red 1px solid;
+}
+
+.two-columns__paragraph {
+  line-height: 1.2;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  border: red 1px solid;
+}
+
+
 
 .table__cell_theme_dark {
   width: 200px;
