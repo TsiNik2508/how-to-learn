@@ -87,6 +87,7 @@
 .description {
   display: flex;
   justify-content: center;
+  background-color:  #f2f2f2;
 }
 
 .two-columns {
@@ -129,6 +130,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-color:  #f2f2f2;
 }
 
 .section-title {
@@ -192,6 +194,56 @@
 
 .table__text_digits:last-of-type {
   margin-top: 20px;
+  border: red 1px solid;
+}
+
+.feynman{
+  background-color:  #f2f2f2;
+  height: 890px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feynman__main-ilustration {
+  width: 867px;
+  height: 637px;
+  z-index: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  border: red 1px solid;
+}
+
+.feyman__title {
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  z-index: 1;
+  text-align: center;
+  border: red 1px solid;
+}
+
+.feyman__subtitle {
+  z-index: 1;
+  margin-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  border: red 1px solid;
+}
+
+.feyman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  color: #2f80ed;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
   border: red 1px solid;
 }
 
