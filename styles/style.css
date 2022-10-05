@@ -13,13 +13,12 @@
   position: relative;
   background-color:  #f2f2f2;
   box-sizing: border-box;
-  border: red 1px solid;
 }
 
 .logo {
   width: 228px;
   height: 32px;
-  border: red 1px solid;
+
 }
 
 .header__logo {
@@ -28,7 +27,7 @@
   left: 64px;
   background-size: cover;
   z-index: 1;
-  border: red 1px solid;
+
 }
 
 .header__title {
@@ -41,7 +40,7 @@
   font-weight: 600px;
   z-index: 2;
   box-sizing: border-box;
-  border: red 1px solid;
+
 }
 
 .header__subtitle {
@@ -54,13 +53,13 @@
   font-weight: normal;
   z-index: 2;
   box-sizing: border-box;
-  border: red 1px solid;
+
 }
 
 .header__link{
   color: #2f80ed;
   text-decoration: none;
-  border: red 1px solid;
+
 }
 
 .header__main-ilustration{
@@ -71,7 +70,7 @@
   z-index: 1;
   bottom: 0;
   right: 0;
-  border: red 1px solid;
+
 }
 
 .header__square-pic {
@@ -83,14 +82,14 @@
   right: 0;
   z-index: 0;
   box-sizing: border-box;
-  border: red 1px solid;
+
 }
 
 .description {
   display: flex;
   justify-content: center;
   background-color:  #f2f2f2;
-  border: red 1px solid;
+
 }
 
 .two-columns {
@@ -100,7 +99,7 @@
   width: 80%;
   min-width: 784px;
   box-sizing: border-box;
-  border: red 1px solid;
+
 }
 
 .two-columns__brief {
@@ -110,14 +109,14 @@
   font-weight: normal;
   color:  #2f80ed;
   box-sizing: border-box;
-  border: red 1px solid;
+
 }
 
 .two-columns__main-text{
   width: 80%;
   min-width: 784px;
   box-sizing: border-box;
-  border: red 1px solid;
+
 }
 
 .two-columns__paragraph {
@@ -126,7 +125,7 @@
   font-weight: normal;
   margin-bottom: 30px;
   box-sizing: border-box;
-  border: red 1px solid;
+
 }
 
 .digits {
@@ -134,7 +133,7 @@
   align-items: center;
   flex-direction: column;
   background-color:  #f2f2f2;
-  border: red 1px solid;
+
 }
 
 .section-title {
@@ -146,7 +145,7 @@
   font-weight: 600;
   text-align: center;
   box-sizing: border-box;
-  border: red 1px solid;
+
 }
 
 .section-subtitle{
@@ -157,7 +156,7 @@
   font-weight: normal;
   text-align: center;
   box-sizing: border-box;
-  border: red 1px solid;
+
 }
 
 .table__place_digits {
@@ -168,7 +167,7 @@
   margin: auto;
   list-style: none;
   box-sizing: border-box;
-  border: red 1px solid;
+
 }
 
 .table_cell {
@@ -176,7 +175,7 @@
   flex-direction: column;
   width: 250px;
   margin-top: 60px;
-  border: red 1px solid;
+
 }
 
 .table_heading{
@@ -186,7 +185,7 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  border: red 1px solid;
+
 }
 
 .table__text_digits:first-of-type {
@@ -194,12 +193,12 @@
   font-size: 18px;
   font-weight: normal;
   box-sizing: border-box;
-  border: red 1px solid;
+
 }
 
 .table__text_digits:last-of-type {
   margin-top: 20px;
-  border: red 1px solid;
+
 }
 
 .feynman{
@@ -209,7 +208,7 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  border: red 1px solid;
+
 }
 
 .feynman__main-ilustration {
@@ -219,7 +218,7 @@
   left: 0;
   bottom: 0;
   position: absolute;
-  border: red 1px solid;
+
 }
 
 .feyman__title {
@@ -230,7 +229,7 @@
   font-weight: 600;
   z-index: 1;
   text-align: center;
-  border: red 1px solid;
+
 }
 
 .feyman__subtitle {
@@ -239,7 +238,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  border: red 1px solid;
+
 }
 
 .feyman__link {
@@ -251,7 +250,7 @@
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
-  border: red 1px solid;
+
 }
 
 .kaufman {
@@ -262,7 +261,7 @@
   position: relative;
   padding-bottom: 90px;
   overflow: hidden;
-  border: red 1px solid;
+
 }
 
 .section-title_theme_dark {
@@ -275,7 +274,7 @@
   text-align: center;
   box-sizing: border-box;
   color: white;
-  border: red 1px solid;
+
   z-index: 1;
 }
 
@@ -288,7 +287,7 @@
   text-align: center;
   color: white;
   box-sizing: border-box;
-  border: red 1px solid;
+
   z-index: 1;
 }
 
@@ -300,7 +299,7 @@
   margin: auto;
   list-style: none;
   box-sizing: border-box;
-  border: red 1px solid;
+
   z-index: 1;
 }
 
@@ -309,7 +308,7 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
-  border: red 1px solid;
+
   z-index: 1;
 }
 
@@ -320,7 +319,7 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  border: red 1px solid;
+
   z-index: 1;
 }
 
@@ -329,7 +328,7 @@
   font-size: 18px;
   font-weight: normal;
   box-sizing: border-box;
-  border: red 1px solid;
+
   z-index: 1;
 }
 
@@ -338,7 +337,7 @@
   height: 877px;
   position: absolute;
   right: -210px;
-  border: red 1px solid;
+
 }
 
 .footer {
@@ -346,7 +345,7 @@
   display: flex;
   justify-content: center;
   background-color: #1f1f1f;
-  border: red 1px solid;
+
 }
 
 .footer__columns {
@@ -355,13 +354,13 @@
   margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
-  border: red 1px solid;
+
 }
 
 .footer__colum_content_copyright {
   flex-basis: 711px;
   position: relative;
-  border: red 1px solid;
+
 }
 
 .footer__author {
@@ -371,7 +370,7 @@
   line-height: 25px;
   font-size: 25px;
   font-weight: normal;
-  border: red 1px solid;
+
 }
 
 .footer__column-heading {
@@ -380,7 +379,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
-  border: red 1px solid;
+
 }
 
 .footer__column-links {
@@ -388,7 +387,7 @@
   color: white;
   list-style: none;
   padding: 0;
-  border: red 1px solid;
+
 }
 
 .footer__column-link {
@@ -397,7 +396,7 @@
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
-  border: red 1px solid;
+
 }
 
 
@@ -405,5 +404,5 @@
   margin-right: 10px;
   height: 16px;
   width: 16px;
-  border: red 1px solid;
+
 }
