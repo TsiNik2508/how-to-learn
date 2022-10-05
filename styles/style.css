@@ -12,7 +12,6 @@
   display: flex;
   position: relative;
   background-color:  #f2f2f2;
-  box-sizing: border-box;
 }
 
 .logo {
@@ -38,7 +37,6 @@
   font-size: 102px;
   font-weight: 600px;
   z-index: 2;
-  box-sizing: border-box;
 }
 
 .header__subtitle {
@@ -50,7 +48,6 @@
   font-size: 18px;
   font-weight: normal;
   z-index: 2;
-  box-sizing: border-box;
 }
 
 .header__link{
@@ -66,7 +63,6 @@
   z-index: 1;
   bottom: 0;
   right: 0;
-
 }
 
 .header__square-pic {
@@ -77,7 +73,6 @@
   top: 64px;
   right: 0;
   z-index: 0;
-  box-sizing: border-box;
 }
 
 .description {
@@ -92,7 +87,6 @@
   justify-content: space-between;
   width: 80%;
   min-width: 784px;
-  box-sizing: border-box;
 }
 
 .two-columns__brief {
@@ -102,13 +96,11 @@
   font-size: 18px;
   font-weight: normal;
   color:  #2f80ed;
-  box-sizing: border-box;
 }
 
 .two-columns__main-text{
   width: 80%;
   min-width: 784px;
-  box-sizing: border-box;
 }
 
 .two-columns__paragraph {
@@ -117,7 +109,7 @@
   font-weight: normal;
   margin-bottom: 30px;
   margin-top: 0;
-  box-sizing: border-box;
+
 }
 
 .digits {
@@ -135,7 +127,6 @@
   font-size: 60px;
   font-weight: 600;
   text-align: center;
-  box-sizing: border-box;
 }
 
 .section-subtitle{
@@ -145,7 +136,7 @@
   font-size: 24px;
   font-weight: normal;
   text-align: center;
-  box-sizing: border-box;
+
 }
 
 .table__place_digits {
@@ -155,7 +146,7 @@
   flex-wrap: wrap;
   margin: auto;
   list-style: none;
-  box-sizing: border-box;
+
 }
 
 .table_cell {
@@ -171,14 +162,13 @@
   font-weight: 600;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
 }
 
 .table__text_digits:first-of-type {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  box-sizing: border-box;
+
 }
 
 .table__text_digits:last-of-type {
@@ -250,7 +240,6 @@
   font-size: 60px;
   font-weight: 600;
   text-align: center;
-  box-sizing: border-box;
   color: white;
   z-index: 1;
 }
@@ -263,7 +252,7 @@
   font-weight: normal;
   text-align: center;
   color: white;
-  box-sizing: border-box;
+
   z-index: 1;
 }
 
@@ -274,7 +263,7 @@
   flex-wrap: wrap;
   margin: auto;
   list-style: none;
-  box-sizing: border-box;
+
   z-index: 1;
 }
 
@@ -292,7 +281,7 @@
   font-weight: 600;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+
   z-index: 1;
 }
 
@@ -300,7 +289,6 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  box-sizing: border-box;
   z-index: 1;
 }
 
