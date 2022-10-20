@@ -163,16 +163,15 @@
   display: flex;
   flex-wrap: wrap;
   width: 920px;
+  column-gap: 100px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
 }
 
 .cards__item {
-  margin-right: 100px;
   text-align: center;
   width: 240px;
-}
-
-.cards__item:nth-of-type(3) {
-  margin-right: 0;
 }
 
 .cards__image {
@@ -197,6 +196,28 @@
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
+}
+
+.video {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video__iframes {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+}
+
+.video__iframe:nth-child(1) {
+  margin-right: 20px;
 }
 
 .digits {
