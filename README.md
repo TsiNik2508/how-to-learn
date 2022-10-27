@@ -3,7 +3,7 @@
 ## Описание:
 "How to learn" - это одностраничный сайт, созданный по методике файловой структуры NEsted BEM.
 
-[ссылка на страницу](https://tsinik2508.github.io/how-to-learn/)
+### [ссылка на страницу](https://tsinik2508.github.io/how-to-learn/)
 
 ## Стек:
 * HTML
